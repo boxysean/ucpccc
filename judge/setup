@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# set up permissions for files and directories
+chmod 771 ..
+chmod 664 ../*.php
+chmod 2777 ../problems
+chmod 664 ../problems/*
+chmod 666 ../problems/.htaccess
+chmod 3777 .
+chmod 666 ./*.txt
+chmod 700 ./grade_standalone.pl
+chmod 644 ./.htaccess ./index.html ./*.php
+
+# compile the autojudge
+g++ -O2 -o judge judge.cc
+
+# set up the .htaccess file to point to the right path
+echo AuthType Basic > .htaccess
+echo AuthName \"Contest Judge\" >> .htaccess
+echo AuthUserFile `pwd`/.htpasswd >> .htaccess
+echo require valid-user >> .htaccess
+
+# set up the .htaccess file for the problems directory
+echo "order deny, allow" > ../problems/.htaccess
+echo "deny from all" >> ../problems/.htaccess
+
+# invoke htpasswd to set the judge password
+echo Please set a password for the \"judge\" pages:
+htpasswd -c .htpasswd judge

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# get user confirmation first
+echo "------------------------------------------------------------"
+echo "WARNING: This script will remove ALL TRACES of your contest!"
+echo "------------------------------------------------------------"
+echo "Proceed? (y/n) "
+read confirm
+
+if [ $confirm ] && [ $confirm = "y" ]
+then
+   echo "Cleaning contest files..."
+   rm -fv submissions.txt judgements.txt clarifications.txt crequests.txt
+   echo "Cleaning problem statements..."
+   mv ../problems/index.html ../problems/.index.html
+   rm -fv ../problems/*
+   mv ../problems/.index.html ../problems/index.html
+   echo "Done!"
+fi

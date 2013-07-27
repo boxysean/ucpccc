@@ -1,0 +1,3 @@
+A data/alpha.in		data/alpha.out		2
+B data/beta.in		data/beta.out		5
+C data/gamma.in		data/gamma.out		10

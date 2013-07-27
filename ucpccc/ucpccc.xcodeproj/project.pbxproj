@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E00EA74108B94F2800462FC8 /* clarify.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = clarify.php; path = ../clarify.php; sourceTree = SOURCE_ROOT; };
+		E00EA74208B94F2800462FC8 /* common.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = common.php; path = ../common.php; sourceTree = SOURCE_ROOT; };
+		E00EA74308B94F2900462FC8 /* config.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = config.php; path = ../config.php; sourceTree = SOURCE_ROOT; };
+		E00EA74408B94F2900462FC8 /* confirm.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = confirm.php; path = ../confirm.php; sourceTree = SOURCE_ROOT; };
+		E00EA74508B94F2A00462FC8 /* scores.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = scores.php; path = ../scores.php; sourceTree = SOURCE_ROOT; };
+		E00EA74608B94F2A00462FC8 /* submit.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = submit.php; path = ../submit.php; sourceTree = SOURCE_ROOT; };
+		E00EA74708B94F2A00462FC8 /* index.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = index.php; path = ../index.php; sourceTree = SOURCE_ROOT; };
+		E00EA77308B9AF7100462FC8 /* judge.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = judge.php; path = ../judge/judge.php; sourceTree = SOURCE_ROOT; };
+		E02FC1FA0ABC718D00E4F77F /* jpoll.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = jpoll.php; path = ../judge/jpoll.php; sourceTree = SOURCE_ROOT; };
+		E0522621126EBF29008DDCF6 /* setupafs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = setupafs; path = ../judge/setupafs; sourceTree = SOURCE_ROOT; };
+		E07009CE0ABA29640060D6C5 /* jscores.php */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.php; name = jscores.php; path = ../judge/jscores.php; sourceTree = SOURCE_ROOT; };
+		E0886C9B0CD03DD0007E573B /* judge.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = judge.cc; path = ../judge/judge.cc; sourceTree = SOURCE_ROOT; };
+		E08C72AD08D14855001E4A3E /* help.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = help.php; path = ../help.php; sourceTree = SOURCE_ROOT; };
+		E08C732A08D2AA78001E4A3E /* jclarify.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = jclarify.php; path = ../judge/jclarify.php; sourceTree = SOURCE_ROOT; };
+		E0AB0E660C7232760030B062 /* login.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = login.php; path = ../login.php; sourceTree = "<group>"; };
+		E0CC82150C750668001F9CC7 /* jconfig.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = jconfig.php; path = ../judge/jconfig.php; sourceTree = SOURCE_ROOT; };
+		E0CEF0CB0C8E601500A6C2A1 /* cleanup */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; name = cleanup; path = ../judge/cleanup; sourceTree = SOURCE_ROOT; };
+		E0CEF0DE0C8E7AC700A6C2A1 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = README.TXT; path = ../README.TXT; sourceTree = SOURCE_ROOT; };
+		E0D945BF0C7D3E140044BE33 /* setup */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; name = setup; path = ../judge/setup; sourceTree = SOURCE_ROOT; };
+		E0DCDC060C84B9F10075E985 /* jtest.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = jtest.php; path = ../judge/jtest.php; sourceTree = SOURCE_ROOT; };
+		E0FAB6C90C7425FE005B1A74 /* jfetch.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = jfetch.php; path = ../judge/jfetch.php; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E00EA73508B94ED500462FC8 = {
+			isa = PBXGroup;
+			children = (
+				E0CEF0DE0C8E7AC700A6C2A1 /* README.TXT */,
+				E00EA74208B94F2800462FC8 /* common.php */,
+				E00EA74308B94F2900462FC8 /* config.php */,
+				E0FAB6E00C742C4C005B1A74 /* Client */,
+				E0FAB6E10C742C67005B1A74 /* Judge */,
+				E0522631126EBF60008DDCF6 /* Scripts */,
+			);
+			sourceTree = "<group>";
+		};
+		E0522631126EBF60008DDCF6 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				E0522621126EBF29008DDCF6 /* setupafs */,
+				E0D945BF0C7D3E140044BE33 /* setup */,
+				E0CEF0CB0C8E601500A6C2A1 /* cleanup */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		E0FAB6E00C742C4C005B1A74 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				E00EA74708B94F2A00462FC8 /* index.php */,
+				E00EA74108B94F2800462FC8 /* clarify.php */,
+				E00EA74408B94F2900462FC8 /* confirm.php */,
+				E00EA74508B94F2A00462FC8 /* scores.php */,
+				E00EA74608B94F2A00462FC8 /* submit.php */,
+				E08C72AD08D14855001E4A3E /* help.php */,
+				E0AB0E660C7232760030B062 /* login.php */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		E0FAB6E10C742C67005B1A74 /* Judge */ = {
+			isa = PBXGroup;
+			children = (
+				E0886C9B0CD03DD0007E573B /* judge.cc */,
+				E00EA77308B9AF7100462FC8 /* judge.php */,
+				E08C732A08D2AA78001E4A3E /* jclarify.php */,
+				E07009CE0ABA29640060D6C5 /* jscores.php */,
+				E02FC1FA0ABC718D00E4F77F /* jpoll.php */,
+				E0FAB6C90C7425FE005B1A74 /* jfetch.php */,
+				E0CC82150C750668001F9CC7 /* jconfig.php */,
+				E0DCDC060C84B9F10075E985 /* jtest.php */,
+			);
+			name = Judge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E00EA73708B94ED700462FC8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E00EA73808B94ED700462FC8 /* Build configuration list for PBXProject "ucpccc" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E00EA73508B94ED500462FC8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E00EA73908B94ED700462FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E00EA73A08B94ED700462FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00EA73808B94ED700462FC8 /* Build configuration list for PBXProject "ucpccc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00EA73908B94ED700462FC8 /* Debug */,
+				E00EA73A08B94ED700462FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00EA73708B94ED700462FC8 /* Project object */;
+}

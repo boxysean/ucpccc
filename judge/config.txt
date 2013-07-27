@@ -1,0 +1,9 @@
+Stanford ACM Programming Contest
+sonnyc@gmail.com
+01 January 2012
+12:00 + 05:00
+60;A;on
+Problem Set Title
+Alpha;		problemA.pdf
+Beta;		problemB.pdf
+Gamma;		problemC.pdf

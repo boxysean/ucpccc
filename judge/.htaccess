@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Contest Judge"
+AuthUserFile /afs/cs/group/acm/www/contest/judge/.htpasswd
+require valid-user
