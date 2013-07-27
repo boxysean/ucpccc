@@ -1,5 +1,6 @@
 <?php
-   $g_pagetitle   = "Stanford ACM Programming Contest";
+   $g_pagetitle   = "Ultra Cool Programming Contest";
+   $g_timezone    = "America/New_York";
 
    // This configuration file sets up paths, files, and users.
    
@@ -65,11 +66,8 @@
    // Global variable initialization code
    // -----------------------------------------------------------------------
 
-//   ini_set('session.save_path', '/afs/ir.stanford.edu/users/s/o/sonnycs/cgi-bin/tmp/');
-//   ini_set('session.gc_maxlifetime', 300*60);
-//   ini_set('session.gc_probability', 1);
    session_start();
-   date_default_timezone_set('America/Los_Angeles');
+   date_default_timezone_set($g_timezone);
    
    // load the page title
    if ($fp = fopen($g_configfile, "r"))

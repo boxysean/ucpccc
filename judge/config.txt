@@ -1,6 +1,6 @@
-Stanford ACM Programming Contest
-sonnyc@gmail.com
-01 January 2012
+Ultra Cool Programming Contest
+judge@example.com
+01 January 2013
 12:00 + 05:00
 60;A;on
 Problem Set Title

@@ -14,7 +14,7 @@
 <div align="center">
 <h1><?=$g_pagetitle?></h1>
 <h2><i>Online Training Arena</i></h2>
-<p><img src="images/SU_BlockStree_2color.gif"></p>
+<p><img src="images/icpc_logo.png"></p>
 </div>
 
 <?php navigation("index"); ?>
