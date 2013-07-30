@@ -11,6 +11,11 @@ QUICK START
 
 4.  Direct contestants to the contest URL and run the contest!
 
+AUTO JUDGE
+----------
+
+There is an auto judging system bundled with UCPCCC. It is compiled when the `setup` script is run and its executable is called `judge`. Run it in the background as `judge -auto x` where `x` is the number of seconds between the polling for new submissions.
+
 CREDITS
 -------
 
