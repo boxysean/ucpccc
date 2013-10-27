@@ -324,7 +324,7 @@ END;
 <?php
    // print table with team information, values obtained from g_teams array
    reset($g_teams);
-   for ($i = 1; $i <= $g_teamtablesize; $i++)
+   for ($i = 1; $i <= count($g_teams) + 10; $i++)
    {
       list($team, $password) = each($g_teams);
 //      $official = in_array($team, $g_official) ? "checked=\"checked\"" : "";
