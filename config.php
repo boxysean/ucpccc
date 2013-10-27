@@ -44,9 +44,6 @@
       "October", "November", "December"
    );
    
-   // number of teams to show on the judge configuration screen
-   $g_teamtablesize = 64;
-   
    // The following array maps teams to passwords!
    $g_teams = array();
 
